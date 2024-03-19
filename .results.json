@@ -2,47 +2,41 @@
   "stats": {
     "suites": 5,
     "tests": 10,
-    "passes": 8,
+    "passes": 10,
     "pending": 0,
-    "failures": 2,
-    "start": "2024-03-19T04:56:50.414Z",
-    "end": "2024-03-19T04:56:52.021Z",
-    "duration": 1607
+    "failures": 0,
+    "start": "2024-03-19T04:58:20.989Z",
+    "end": "2024-03-19T04:58:22.558Z",
+    "duration": 1569
   },
   "tests": [
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
-      "duration": 5,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains \"Welcome to Flatbook, \"",
       "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 3,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains the value of the 'currentUser' variable",
       "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "ends with an exclamation point!",
       "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
-      "duration": 4,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'r' to equal '!'",
-        "showDiff": true,
-        "actual": "r",
-        "expected": "!",
-        "stack": "AssertionError: expected 'r' to equal '!'\n    at Context.<anonymous> (test/indexTest.js:21:44)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "contains \"WELCOME TO FLATBOOK, \"",
@@ -54,7 +48,7 @@
     {
       "title": "contains the value of the 'currentUser' variable",
       "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
@@ -63,13 +57,7 @@
       "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'R' to equal '!'",
-        "showDiff": true,
-        "actual": "R",
-        "expected": "!",
-        "stack": "AssertionError: expected 'R' to equal '!'\n    at Context.<anonymous> (test/indexTest.js:37:51)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "contains \"Welcome, \"",
@@ -88,58 +76,38 @@
     {
       "title": "ends with an exclamation point",
       "fullTitle": "index.js shortGreeting ends with an exclamation point",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "ends with an exclamation point!",
-      "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
-      "duration": 4,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'r' to equal '!'",
-        "showDiff": true,
-        "actual": "r",
-        "expected": "!",
-        "stack": "AssertionError: expected 'r' to equal '!'\n    at Context.<anonymous> (test/indexTest.js:21:44)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    },
-    {
-      "title": "ends with an exclamation point",
-      "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'R' to equal '!'",
-        "showDiff": true,
-        "actual": "R",
-        "expected": "!",
-        "stack": "AssertionError: expected 'R' to equal '!'\n    at Context.<anonymous> (test/indexTest.js:37:51)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "is defined",
       "fullTitle": "index.js currentUser is defined",
-      "duration": 5,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains \"Welcome to Flatbook, \"",
       "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 3,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains the value of the 'currentUser' variable",
       "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ends with an exclamation point!",
+      "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -154,7 +122,14 @@
     {
       "title": "contains the value of the 'currentUser' variable",
       "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 3,
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ends with an exclamation point",
+      "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -175,7 +150,7 @@
     {
       "title": "ends with an exclamation point",
       "fullTitle": "index.js shortGreeting ends with an exclamation point",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
